@@ -1,0 +1,170 @@
+//изменить.
+::-moz-selection {
+    background: #FFF;
+}
+h1 {
+	color: #FFF;
+	font-family: 'Shadows Into Light', cursive;
+    font-size: 48px;
+	text-shadow: 
+		-0   -4px 0   #000000,
+		 0   -4px 0   #000000,
+}
+
+Lampathread {
+	color: #FFF;
+	font-family: 'Shadows Into Light', cursive;
+    font-size: 48px;
+}
+
+
+* {
+    margin: auto;
+}
+body {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    background-image: url(bg.jpg);
+    background-attachment: fixed;
+}
+
+p {
+	color: #FFF;
+	font-family: 'Orbitron', sans-serif;
+}
+
+.footer {
+    text-align: center;
+    margin: auto;
+    padding: 0;
+}
+
+.text {
+	padding: 1px;
+	text-align: left;
+	color: white;
+	text-shadow: 1px 1px 2px black;
+	margin: 5px;
+	float: center;
+	overflow: hidden;
+	background-color: rgba(255, 255, 255, 0.15);
+	transition: background-color 2s;
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgba(255, 255, 255, 0.1);
+	box-sizing: border-box;
+}
+
+a.button {
+  
+  font-family: 'Shadows Into Light', cursive;
+  display: inline-block;
+  color: #FFF;
+  text-decoration: none;
+  user-select: none;
+  padding: .5em 2em;
+  outline: none;
+  border: 2px solid;
+  border-radius: 20px;
+  transition: 0.2s;
+  font-size: 18px;
+} 
+a.button:hover { background: rgba(255,255,255,.2); }
+a.button:active { background: white; }
+
+.fa {
+	color: white;
+}
+
+.bar-wrapper {
+	  height: 300px;
+	  position: relative;
+	}
+
+.bar {
+	  position: relative;
+	  bottom: 0;
+	  width: 5px;
+	  display: inline-block;
+	  border: 1px solid red;
+	  height: 5px;
+	  border-bottom: 3px solid #fff;
+	}
+
+.separator {
+	padding: 100px
+}
+
+a {
+	color: white;
+}
+
+
+
+@media screen and (max-width: 840px){
+	html {
+		font-size: 12pt;
+	}
+	
+	h1 {
+		font-size: 100px;
+	}
+	
+	p {
+		font-size: 80px;
+	}
+	
+	a.button {
+		font-size: 30px;
+	}
+	
+	top {
+		height: 80px;
+	}
+}
+
+@media screen and (max-width: 420px){
+	html {
+		font-size: 12pt;
+	}
+	
+	h1 {
+		font-size: 100px;
+	}
+	
+	p {
+		font-size: 80px;
+	}
+	
+	a.button {
+		font-size: 30px;
+	}
+	
+	top {
+		height: 80px;
+	}
+}
+
+@media screen and (max-width: 600px){
+	html {
+		font-size: 12pt;
+	}
+	
+	h1 {
+		font-size: 100px;
+	}
+	
+	p {
+		font-size: 80px;
+	}
+	
+	a.button {
+		font-size: 30px;
+	}
+	
+	top {
+		height: 80px;
+	}
+}
